@@ -35,16 +35,21 @@
       <h3>My Availability</h3>
         <p>Days Available: </p>
         <p>
-          <input type="checkbox" name="avilable_field[]" value="Sunday">Sunday<br>
-          <input type="checkbox" name="avilable_field[]" value="Monday">Monday<br>
-		  <input type="checkbox" name="avilable_field[]" value="Tuesday">Tuesday<br>
-		  <input type="checkbox" name="avilable_field[]" value="Wednesday">Wednesday<br>
-		  <input type="checkbox" name="avilable_field[]" value="Thursday">Thursday<br>
-		  <input type="checkbox" name="avilable_field[]" value="Friday">Friday<br>
-		  <input type="checkbox" name="avilable_field[]" value="Saturday">Saturday<br>
+          <label><input type="checkbox" name="available_field[]" value="Sunday">Sunday</label><br>
+          <label><input type="checkbox" name="available_field[]" value="Monday">Monday</label><br>
+          <label><input type="checkbox" name="available_field[]" value="Tuesday">Tuesday</label><br>
+          <label><input type="checkbox" name="available_field[]" value="Wednesday">Wednesday</label><br>
+          <label><input type="checkbox" name="available_field[]" value="Thursday">Thursday</label><br>
+          <label><input type="checkbox" name="available_field[]" value="Friday">Friday</label><br>
+          <label><input type="checkbox" name="available_field[]" value="Saturday">Saturday</label><br>
         </p>
-        
+        <p>Any Comments?</p>
+        <textarea cols="50" rows="15" name="comments_field" id="our_textarea"></textarea><br>
     </fieldset>
+      <div>
+        <input type="hidden" name="hidden_field" value="James Dumitru, jdumitru@hawk.iit.edu">
+      </div>
+        <input type="submit" value="Send">
   </form>
 </body>
 </html>
